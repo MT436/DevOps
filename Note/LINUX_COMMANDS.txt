@@ -1,0 +1,437 @@
+1. ls: A command for listing the contents of a directory.
+Example usage: ls /home/user
+
+2. cd: A command for changing the current working directory.
+Example usage: cd /home/user/Documents
+
+3. pwd: A command for printing the current working directory.
+Example usage: pwd
+
+4.	mkdir: A command for creating a new directory.
+Example usage: mkdir new_directory
+
+5.	rm: A command for deleting files and directories.
+Example usage: rm file.txt
+
+6.	cp: A command for copying files and directories.
+Example usage: cp file.txt /home/user/Documents
+
+7.	mv: A command for moving or renaming files and directories.
+Example usage: mv file.txt new_name.txt
+
+8.	cat: A command for displaying the contents of a file.
+Example usage: cat file.txt
+
+9.	less: A command for displaying the contents of a file in a scrollable view.
+Example usage: less file.txt
+
+10.	head: A command for displaying the first lines of a file.
+Example usage: head file.txt
+
+11.	tail: A command for displaying the last lines of a file.
+Example usage: tail file.txt
+
+12.	grep: A command for searching for a specific pattern in a file.
+Example usage: grep pattern file.txt
+
+13.	find: A command for searching for files or directories.
+Example usage: find /home/user -name file.txt
+
+14.	chmod: A command for changing the permissions of a file or directory.
+Example usage: chmod 755 file.txt
+
+15.	chown: A command for changing the owner of a file or directory.
+Example usage: chown user:group file.txt
+
+16.	ssh: A command for connecting to a remote host over SSH.
+Example usage: ssh user@host
+
+17.	scp: A command for copying files between local and remote hosts over SSH.
+Example usage: scp file.txt user@host:/path/to/destination
+
+18.	tar: A command for creating and manipulating archive files.
+Example usage: tar -cvf archive.tar file1 file2
+
+19.	gzip: A command for compressing and decompressing files.
+Example usage: gzip file.txt
+
+20.	top: A command for monitoring system processes and resource usage.
+Example usage: top
+
+21.	ps: A command for displaying information about running processes.
+Example usage: ps aux
+
+22.	kill: A command for terminating a process.
+Example usage: kill PID
+
+23.	df: A command for displaying disk usage.
+Example usage: df -h
+
+24.	du: A command for displaying the size of files and directories.
+Example usage: du -sh /path/to/directory
+
+25.	apt-get: A command for managing packages on Debian-based Linux distributions.
+Example usage: sudo apt-get update
+
+26.	yum: A command for managing packages on Red Hat-based Linux distributions.
+Example usage: sudo yum update
+
+27.	ping: A command for testing network connectivity.
+Example usage: ping google.com
+
+28.	traceroute: A command for tracing the route of network packets.
+Example usage: traceroute google.com
+
+29.	ifconfig: A command for displaying and configuring network interfaces.
+Example usage: ifconfig
+
+30.	ip: A command for displaying and configuring network interfaces, routes, and addresses.
+Example usage: ip addr show
+
+31.	whoami: A command for displaying the current user.
+Example usage: whoami
+
+32.	sudo: A command for executing a command with elevated privileges.
+Example usage: sudo apt-get update
+
+33.	useradd: A command for creating a new user account.
+Example usage: sudo useradd -m newuser
+
+34.	usermod: A command for modifying user account attributes.
+Example usage: sudo usermod -aG sudo newuser
+
+35.	passwd: A command for changing the password of a user account.
+Example usage: passwd newuser
+
+36.	history: A command for displaying the command history.
+Example usage: history
+
+37.	alias: A command for creating and displaying command aliases.
+Example usage: alias ll='ls -alF'
+
+38.	date: A command for displaying the current date and time.
+Example usage: date
+
+39.	cal: A command for displaying a calendar.
+Example usage: cal
+
+40.	who: A command for displaying the users currently logged in.
+Example usage: who
+
+41.	uptime: A command for displaying the system uptime.
+Example usage: uptime
+
+42.	hostname: A command for displaying the hostname of the system.
+Example usage: hostname
+
+43.	df: A command for displaying disk space usage.
+Example usage: df -h
+
+44.	free: A command for displaying the amount of free memory.
+Example usage: free -h
+
+45.	mount: A command for mounting a file system.
+Example usage: sudo mount /dev/sdb1 /mnt
+
+46.	umount: A command for unmounting a file system.
+Example usage: sudo umount /mnt
+
+47.	chroot: A command for changing the root directory.
+Example usage: sudo chroot /mnt
+
+48.	ln: A command for creating links between files.
+Example usage: ln -s /path/to/file /path/to/link
+
+49.	lsof: A command for displaying information about open files.
+Example usage: sudo lsof /path/to/file
+
+50.	ssh-keygen: A command for generating SSH keys.
+Example usage: ssh-keygen -t rsa -b 4096 -C "user@host"
+
+51.	ssh: A command for connecting to a remote server over SSH.
+Example usage: ssh user@host
+
+52.	scp: A command for securely copying files between hosts.
+Example usage: scp /path/to/file user@host:/path/to/destination
+
+53.	rsync: A command for efficiently synchronizing files between hosts.
+Example usage: rsync -avz /path/to/source user@host:/path/to/destination
+
+54.	ps: A command for displaying information about running processes.
+Example usage: ps aux
+
+55.	top: A command for displaying information about the top CPU-consuming processes.
+Example usage: top
+
+56.	kill: A command for terminating a process.
+Example usage: kill 1234
+
+57.	pkill: A command for terminating a process by name.
+Example usage: pkill firefox
+
+58.	jobs: A command for displaying a list of background jobs.
+Example usage: jobs
+
+59.	bg: A command for running a job in the background.
+Example usage: bg %1
+
+60.	fg: A command for bringing a job to the foreground.
+Example usage: fg %1
+
+61.	cron: A command for scheduling jobs to run at specified intervals.
+Example usage: crontab -e
+
+62.	at: A command for scheduling a job to run at a specified time.
+Example usage: at now + 1 hour
+
+63.	curl: A command for transferring data from or to a server.
+Example usage: curl https://example.com
+
+64.	wget: A command for downloading files from the web.
+Example usage: wget https://example.com/file
+
+65.	ping: A command for testing network connectivity.
+Example usage: ping 8.8.8.8
+
+66.	traceroute: A command for displaying the path packets take to a destination.
+Example usage: traceroute google.com
+
+67.	route: A command for displaying and modifying the system routing table.
+Example usage: sudo route add default gw 192.168.0.1
+
+68.	ifconfig: A command for displaying network interface information.
+Example usage: ifconfig
+
+69.	ip: A command for displaying and modifying IP address information.
+Example usage: ip addr show
+
+70.	netstat: A command for displaying network connections and statistics.
+Example usage: netstat -tulpn
+
+71.	iptables: A command for configuring and managing firewall rules.
+Example usage: sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+
+72.	systemctl: A command for managing system services.
+Example usage: sudo systemctl status sshd
+
+73.	journalctl: A command for querying and displaying system logs.
+Example usage: sudo journalctl -u sshd
+
+74.	find: A command for searching for files in a directory hierarchy.
+Example usage: find /path/to/dir -name *.txt
+
+75.	grep: A command for searching for text patterns in files.
+Example usage: grep 'pattern' /path/to/file
+
+
+LINUX SCRIPT COMMANDS:
+
+1. echo: A command that displays a message on the terminal.
+Example usage: echo "Hello World"
+
+2. read: A command that reads a value from the user and stores it in a variable.
+Example usage: read NAME
+
+3. if: A command that allows you to execute different commands depending on whether a condition is true or false.
+Example usage:
+if [ $NAME == "Alice" ]
+then
+  echo "Hello Alice"
+else
+  echo "Hello $NAME"
+fi
+
+4. for: A command that allows you to execute a command for each element in a list.
+Example usage:
+for i in 1 2 3 4 5
+do
+  echo $i
+done
+
+5. while: A command that allows you to execute a command repeatedly while a condition is true.
+Example usage:
+while [ $i -lt 10 ]
+do
+  echo $i
+  i=$((i+1))
+done
+
+6. case: A command that allows you to execute different commands depending on the value of a variable.
+Example usage:
+case $i in
+  1)
+    echo "One"
+    ;;
+  2)
+    echo "Two"
+    ;;
+  *)
+    echo "Other"
+    ;;
+Esac
+
+7. export: A command that allows you to set an environment variable that will be available to child processes.
+Example usage: export PATH=$PATH:/usr/local/bin
+
+8. source: A command that allows you to execute a script in the current shell, rather than creating a new shell.
+Example usage: source script.sh
+
+9. alias: A command that allows you to create a shortcut for a longer command.
+Example usage: alias ll='ls -alF'
+
+10. function: A command that allows you to define a function that can be called like a command.
+Example usage:
+function greet {
+  echo "Hello $1"
+}
+
+greet "Alice"
+
+11. break: A command that allows you to exit out of a loop.
+Example usage:
+for i in 1 2 3 4 5
+do
+  if [ $i -eq 3 ]
+  then
+    break
+  fi
+  echo $i
+done
+
+12. continue: A command that allows you to skip an iteration of a loop.
+Example usage:
+for i in 1 2 3 4 5
+do
+  if [ $i -eq 3 ]
+  then
+    continue
+  fi
+  echo $i
+done
+
+13. return: A command that allows you to return a value from a function.
+Example usage:
+function add {
+  return $(($1 + $2))
+}
+
+sum=$(add 2 3)
+echo $sum
+
+14. basename: A command that allows you to get the base name of a file.
+Example usage: basename /path/to/file.txt
+
+15. dirname: A command that allows you to get the directory name of a file.
+Example usage: dirname /path/to/file.txt
+
+16. touch: A command that allows you to create a new empty file or update the modification time of an existing file.
+Example usage:
+touch new_file.txt
+touch existing_file.txt
+
+17. chmod: A command that allows you to change the permissions of a file.
+Example usage: chmod 755 script.sh
+
+18. chown: A command that allows you to change the owner of a file.
+Example usage: chown alice:users file.txt
+
+19. ln: A command that allows you to create a link to a file.
+Example usage: ln -s /path/to/file.txt link.txt
+
+20. sed: A command that allows you to perform text transformations on a file.
+Example usage: sed 's/foo/bar/g' file.txt
+
+21. awk: A command that allows you to extract and manipulate data from a file.
+Example usage: awk '{ print $1 }' file.txt
+
+22. grep: A command that allows you to search for a pattern in a file.
+Example usage: grep 'pattern' file.txt
+
+23. cut: A command that allows you to extract columns of text from a file.
+Example usage: cut -f 1,3 -d ',' file.csv
+
+24. sort: A command that allows you to sort the lines in a file.
+Example usage: sort file.txt
+
+25. uniq: A command that allows you to remove duplicates from a file.
+Example usage: uniq file.txt
+
+26. tee: A command that allows you to write to a file and also output to the terminal.
+Example usage: echo "Hello World" | tee file.txt
+
+27. head: A command that allows you to display the first few lines of a file.
+Example usage: head file.txt
+
+28. tail: A command that allows you to display the last few lines of a file.
+Example usage: tail file.txt
+
+29. cat: A command that allows you to concatenate files and output them to the terminal.
+Example usage: cat file1.txt file2.txt
+
+30. xargs: A command that allows you to pass the output of one command as arguments to another command.
+Example usage: find . -name "*.txt" | xargs grep "pattern"
+
+31. tr: A command that allows you to translate characters in a file.
+Example usage: tr 'a-z' 'A-Z' < file.txt
+
+32. expr: A command that allows you to perform arithmetic operations.
+Example usage: expr 2 + 3
+
+33. bc: A command that allows you to perform floating point arithmetic operations.
+Example usage: echo "scale=2; 5/2" | bc
+
+34. date: A command that allows you to display or set the system date and time.
+Example usage: date
+
+35. cal: A command that allows you to display a calendar for the current month or year.
+Example usage: cal
+
+36. bc: A command that allows you to perform floating point arithmetic operations.
+Example usage: echo "scale=2; 5/2" | bc
+
+37. cut: A command that allows you to extract columns of text from a file.
+Example usage: cut -f 1,3 -d ',' file.csv
+
+38. sort: A command that allows you to sort the lines in a file.
+Example usage: sort file.txt
+
+39. uniq: A command that allows you to remove duplicates from a file.
+Example usage: uniq file.txt
+
+40. paste: A command that allows you to merge lines from multiple files.
+Example usage: paste file1.txt file2.txt
+
+41. dirname: A command that allows you to get the directory name of a file.
+Example usage: dirname /path/to/file.txt
+
+42. basename: A command that allows you to get the base name of a file.
+Example usage: basename /path/to/file.txt
+
+43. cut: A command that allows you to extract columns of text from a file.
+Example usage: cut -f 1,3 -d ',' file.csv
+
+44. wc: A command that allows you to count the number of lines, words, and characters in a file.
+Example usage: wc file.txt
+
+45. head: A command that allows you to display the first few lines of a file.
+Example usage: head file.txt
+
+46. tail: A command that allows you to display the last few lines of a file.
+Example usage: tail file.txt
+
+47. echo: A command that allows you to display a message on the terminal.
+Example usage: echo "Hello World"
+
+48. sleep: A command that allows you to pause the execution of a script for a specified amount of time.
+Example usage: sleep 5
+
+49. read: A command that allows you to read input from the user.
+Example usage:
+echo "What is your name?"
+read name
+echo "Hello, $name!"
+
+50. seq: A command that allows you to generate a sequence of numbers.
+Example usage: seq 1 10
+
+
